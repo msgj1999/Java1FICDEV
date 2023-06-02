@@ -28,7 +28,7 @@ public class main {
         
         for (int i = 0; i < qtdAlunos; i++){
             listaAlunos += alunos[i][0] + " - " + alunos[i][1] + "anos - Nota: " + alunos[i][2] + "\n";
-            totalNotas += Double.parseDouble(Alunos[i][2]);
+            totalNotas += Double.parseDouble(alunos[i][2]);
         }
         double mediaNotas = totalNotas / qtdAlunos;
         listaAlunos += "\nMédia das notas: " + mediaNotas;
