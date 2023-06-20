@@ -21,7 +21,6 @@ public class ObraDeArte {
     @Column(name = "data_obra", nullable = true)
     private Calendar dataObra;
 
-    // Construtores, getters e setters aqui
 
     public ObraDeArte() {
     }
@@ -38,7 +37,6 @@ public class ObraDeArte {
         this.dataObra = dataObra;
     }
 
-    // getters e setters para os atributos
 
     public int getId() {
         return id;
